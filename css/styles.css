@@ -1,0 +1,456 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+#bodycolor {
+	transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 1287px) {
+	#RightPage {
+		opacity: 0!important;
+		margin-right: -500px !important;
+
+	}
+	
+	#CentrePage {
+		
+		width: 60% !important;
+		margin-right: 44px!important;
+		margin-left: auto!important;
+	
+		
+	}
+	
+	#LeftPage {
+		width: 20% !important;
+	}
+}
+
+@media (max-width: 970px) {
+	#LeftPage {
+		opacity: 0;
+		margin-left: -500px !important;
+	}
+	#CentrePage {
+		margin-top: -30px!important;
+		width: 85% !important;
+		margin-right: auto;
+	}
+}
+
+@media (max-width: 570px) {
+
+	#CentrePage {
+
+		width: 85% !important;
+		margin-left: auto!important;
+		margin-right: auto!important;
+	}
+}
+
+
+
+@media (max-width: 806px) {
+	.Hide805{
+		display: none !important;
+	}
+	#Developed {
+		float: left;	
+	}
+}
+
+@media(max-width: 670px) {
+	.workexplinksbig {
+		opacity: 0;
+		display: none!important;
+	}
+	
+	.workexplinksbig2 {
+		display: none!important;
+	}
+	.workexplinksmall {
+		margin-left: 0px!important;
+	}
+	.Ifade {
+		opacity: 100 !important;
+	}
+}
+
+@media (max-width: 406px) {
+	#Lgbtq {
+		float: left;
+		margin-left: calc(50% - 52.203px);
+		margin-bottom: 5px;
+		margin-top: 25px;
+	}
+	
+	#Developed {
+		margin-top: 15px;
+		margin-bottom: 25px;
+		margin-left: calc(50% - 103.6485px)
+	}
+}
+body { 
+	background-color: #36393f;
+	padding-top: 45px;
+	overflow-x: hidden;
+	
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#logo {
+	font: bold 40px 'Oduda', bold;
+	color: #ff6961;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+
+}
+
+#CentrePage {
+	transition: all 0.3s ease-in-out; 
+	align-content: center;
+	width: 50%;
+	padding-top: 0.1px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: 23.5%;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 6px;
+	min-height: 400px;
+	margin-bottom: 10%;
+	
+}
+
+
+
+#LeftPage {
+	white-space: nowrap;
+	overflow-x: hidden;
+	transition: all 0.3s ease-in-out; 
+	width: 15%;
+	padding-top: 0.1px;
+	padding-bottom: 15px;
+	margin-left: 44px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 6px;	
+	float: left;
+	max-width: 191px;
+}
+
+#RightPage {
+	transition: all 0.3s ease-in-out; 
+	width: 15%;
+	padding-top: 0.1px;
+	padding-bottom: 15px;
+	margin-right: 44px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 6px;	
+	float: right;
+	max-width: 191px;
+	
+}
+
+#BottomBar {
+	transition: all 0.3s ease-in-out;
+    position: absolute;
+    left: 0;
+    width: 100%;
+	bottom: 0;
+	overflow: hidden;
+	height: auto;
+	margin-top: 120px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+p {
+	font: bold 14px 'Open Sans', sans-serif;
+	color: #c4c5c7;
+	margin-top: 0;
+	margin-bottom: 0;
+	transition: color 0.3s ease-in-out;
+	
+
+}
+
+.justify {
+	text-align: justify;
+}
+
+h1 {
+	font: bold 20px 'Oduda', bold;
+	color: #ff6961;
+
+}
+
+
+
+hr {
+	transition: background-color 0.3s ease-in-out;
+}
+
+.HRthick {
+	height: 4px;
+	border: 0;
+	border-radius: 5px;
+}
+
+.HRthin {
+	height: 4px;
+	background-color: #2B2C32;
+	border: 0;
+	border-radius: 5px;	
+	margin-bottom: 15px;
+	margin-top: 0;
+	transition: color 0.3s ease-in-out;
+}
+
+.IndexLink {
+	display: block;
+	font: bold 14px 'Open Sans', sans-serif;
+	background-color: transparent;
+	transition: color 200ms ease-in-out;
+}
+
+.IndexLink:hover {
+	color: #ff6961 !important;
+}
+.linebreakp {
+	margin-top: 6px;
+}
+
+.ButtonRed {
+	background-color: #ff6961;
+	display: block;
+	margin-left: calc(50% - 65px);
+	width: 120px;
+	text-align: center;
+	padding: 5px;
+	border-radius: 20px;
+	margin-top: 15px;
+	font-size: 16px;
+	font: bold 14px 'Open Sans', sans-serif;
+	color: #fff;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+}
+
+
+
+
+#contact:hover {
+	background-color: #FF7A72 !important;
+	
+}
+
+#contact:active {
+    transform: scale(0.99);
+}
+
+a {
+	
+	text-decoration:none;
+	transition: color 0.3s ease-in-out;
+	
+}
+
+
+a:visited {
+	text-decoration:none;
+}
+
+a:active {
+	text-decoration:none;
+}
+
+#GayIcon {
+	height: 29px;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.Block {
+	height: 30px;
+	font: bold 14px 'Open Sans', sans-serif;
+	color: #c4c5c7;
+	display: flex;
+	align-items: center;
+	float: right;
+	margin-bottom: 35px;
+	margin-top: 35px;
+	margin-right: 20px;
+	margin-left: 20px;
+
+	
+	
+}
+
+.pullLeft {
+	float: left;
+}
+
+.pullRight {
+	float: right;
+}
+
+
+/*-------------
+ 	ScrollBar
+-------------*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	width: 13px;
+	border-radius: 10px;
+    border: 3px solid;
+    border-color: inherit;
+    box-shadow: inset 0 0 0 10px;
+    color: inherit;
+    color: inherit;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: inherit;
+    background-color: #ff6961;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+#overlay {
+	z-index: 20;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+    left: 0;
+    right: 0;
+	opacity: 1;
+	transition: opacity 0.9s;
+}
+
+.workexplinksmall {
+	margin-left: -2000px;
+
+}
+
+.workexplinksbig {
+	transition: all 0.3s ease-in-out;
+
+}
+
+.Ifade {
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+body {
+   min-height: 400px;
+   margin-bottom: 200px;
+   clear: both;
+}
+
+#Lgbtq {
+	transition: color 0.3s ease-in-out;
+}
+
+#Developed {
+	transition: color 0.3s ease-in-out;
+}
+
+#Emailtext {
+	transition: color 0.3s ease-in-out;
+}
+
+#Phonetext {
+	transition: color 0.3s ease-in-out;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 30px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c4c5c7;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4.4px;
+  bottom: calc(50% - 11px);
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ff6961;
+}
+
+input:focus + .slider {
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(24px);
+  -ms-transform: translateX(24px);
+  transform: translateX(24px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

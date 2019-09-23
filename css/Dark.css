@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: #36393f; /* Page Dark Backround colour*/
+    color: #2f3136;
+    border-color: #36393f;
+}
+
+p {
+    color: #c4c5c7; /* body text Dark colour */
+}
+
+a {
+    color: #c4c5c7; /* link text Dark colour*/
+}
+
+hr {
+    background-color: #202225; /* horizontal rule Dark colour */
+}
+
+.TextColour {
+    color: #c4c5c7; /* general text Dark theme colour */
+}
+
+.SectionColour {
+    background-color: #2b2c31; /* section Dark theme colour */
+}
+
+#overlay {
+    background-color: #2f3136;
+}
