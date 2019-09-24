@@ -7,98 +7,12 @@ html {
     overflow-x: hidden;
 }
 
-#bodycolor {
+body {
 	transition: all 0.3s ease-in-out;
-}
-
-@media only screen and (max-width: 1287px) {
-	#RightPage {
-		opacity: 0!important;
-		margin-right: -500px !important;
-
-	}
-	
-	#CentrePage {
-		
-		width: 60% !important;
-		margin-right: 44px!important;
-		margin-left: auto!important;
-	
-		
-	}
-	
-	#LeftPage {
-		width: 20% !important;
-	}
-}
-
-@media (max-width: 970px) {
-	#LeftPage {
-		opacity: 0;
-		margin-left: -500px !important;
-	}
-	#CentrePage {
-		margin-top: -30px!important;
-		width: 85% !important;
-		margin-right: auto;
-	}
-}
-
-@media (max-width: 570px) {
-
-	#CentrePage {
-
-		width: 85% !important;
-		margin-left: auto!important;
-		margin-right: auto!important;
-	}
-}
-
-
-
-@media (max-width: 806px) {
-	.Hide805{
-		display: none !important;
-	}
-	#Developed {
-		float: left;	
-	}
-}
-
-@media(max-width: 670px) {
-	.workexplinksbig {
-		opacity: 0;
-		display: none!important;
-	}
-	
-	.workexplinksbig2 {
-		display: none!important;
-	}
-	.workexplinksmall {
-		margin-left: 0px!important;
-	}
-	.Ifade {
-		opacity: 100 !important;
-	}
-}
-
-@media (max-width: 406px) {
-	#Lgbtq {
-		float: left;
-		margin-left: calc(50% - 52.203px);
-		margin-bottom: 5px;
-		margin-top: 25px;
-	}
-	
-	#Developed {
-		margin-top: 15px;
-		margin-bottom: 25px;
-		margin-left: calc(50% - 103.6485px)
-	}
-}
-body { 
+    display: flex;
+    justify-content: center;
 	background-color: #36393f;
-	padding-top: 45px;
+	padding-top: 35px;
 	overflow-x: hidden;
 	
 }
@@ -117,50 +31,109 @@ html {
 }
 
 #CentrePage {
-	transition: all 0.3s ease-in-out; 
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;  
 	align-content: center;
-	width: 50%;
 	padding-top: 0.1px;
 	padding-bottom: 15px;
-	margin-left: auto;
-	margin-right: 23.5%;
 	padding-left: 20px;
 	padding-right: 20px;
 	border-radius: 6px;
 	min-height: 400px;
 	margin-bottom: 10%;
-	
+    flex-shrink: 1;
 }
 
 
 
 #LeftPage {
 	white-space: nowrap;
-	overflow-x: hidden;
-	transition: all 0.3s ease-in-out; 
-	width: 15%;
+    height: auto;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; 
 	padding-top: 0.1px;
-	padding-bottom: 15px;
-	margin-left: 44px;
+    padding-bottom: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
 	border-radius: 6px;	
-	float: left;
-	max-width: 191px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    height: 10%;
 }
 
 #RightPage {
-	transition: all 0.3s ease-in-out; 
-	width: 15%;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; 
 	padding-top: 0.1px;
 	padding-bottom: 15px;
-	margin-right: 44px;
 	padding-left: 20px;
 	padding-right: 20px;
 	border-radius: 6px;	
-	float: right;
-	max-width: 191px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    height: 10%;
+}
+
+@media (max-width: 1105px) {
+    #RightPage {
+        display: none;
+    }
+    
+    #CentrePage {
+        margin-right: 2.5%;
+    }
+}
+
+@media (max-width: 870px) {
+    #LeftPage {
+        display: none;
+    }
+    
+    #CentrePage {
+        margin-left: 2.5%;
+    }
+}
+
+@media (max-width: 800px) {
+    #Phonetext {
+        display: none;
+    }
+    #Emailtext {
+        display: none;
+    }
+    
+    #Developed {
+        float: left;
+    }
+}
+
+@media (max-width: 406px) {
+	#Lgbtq {
+		float: left;
+		margin-left: calc(50% - 52.203px);
+		margin-bottom: 5px;
+		margin-top: 25px;
+	}
 	
+	#Developed {
+		margin-top: 15px;
+		margin-bottom: 25px;
+		margin-left: calc(50% - 103.6485px)
+	}
+}
+
+@media(max-width: 670px) {
+	.workexplinksbig {
+		opacity: 0;
+		display: none!important;
+	}
+	
+	.workexplinksbig2 {
+		display: none!important;
+	}
+	.workexplinksmall {
+		margin-left: 0px!important;
+	}
+	.Ifade {
+		opacity: 100 !important;
+	}
 }
 
 #BottomBar {
