@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+html{
+    scrollbar-color: #ff6961 #253038;
+}
+
 body {
     background-color: #253038; /* Page Dark Backround colour*/
     color: #2f3136;

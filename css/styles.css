@@ -14,7 +14,7 @@ body {
 	background-color: #36393f;
 	padding-top: 35px;
 	overflow-x: hidden;
-	
+	margin:0;
 }
 
 html {
@@ -39,7 +39,7 @@ html {
 	padding-right: 20px;
 	border-radius: 6px;
 	min-height: 400px;
-	margin-bottom: 10%;
+	margin-bottom: 15%;
     flex-shrink: 1;
 }
 
@@ -366,7 +366,6 @@ a:active {
 
 body {
    min-height: 400px;
-   margin-bottom: 200px;
    clear: both;
 }
 
